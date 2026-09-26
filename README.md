@@ -27,3 +27,10 @@ Open up another terminal tab and run:
 curl -v http://localhost:8080
 ```
 (The -v flag lets you see the raw headers, including that sweet empty line b/w header and body delimited by \r\n\r\n)
+
+## Benchmark Performance
+
+I put this simple parser up against the production-grade picohttpparser for a 1,000,000 iteration benchmark (with equivalent overhead):
+
+- Custom parser: ~0.28 seconds
+- picohttpparser: ~0.04 seconds

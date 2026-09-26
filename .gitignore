@@ -12,3 +12,9 @@ test_server
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Local benchmark files
+benchmark
+benchmark.c
+picohttpparser.c
+picohttpparser.h
